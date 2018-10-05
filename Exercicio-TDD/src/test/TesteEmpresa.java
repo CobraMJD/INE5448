@@ -60,8 +60,8 @@ class TesteEmpresa {
 		empresa1.cadastraProjeto(proj);
 		//Novo metodo
 		empresa1.associaFuncionarioProjeto(func, proj);
-		//assertEquals(nomeFuncionarioDoProjeto, "João");
-		//assertEquals(nomeDoProjetoAssociado, "Aspire");
+		assertEquals(nomeFuncionarioDoProjeto, "João");
+		assertEquals(nomeDoProjetoAssociado, "Aspire");
 	}
 
 }
