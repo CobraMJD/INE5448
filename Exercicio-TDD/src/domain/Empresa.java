@@ -36,7 +36,8 @@ public class Empresa {
 	}
 
 	public void associaFuncionarioProjeto(Funcionario func, Projeto proj) {
-		// TODO Auto-generated method stub
+		proj.associaFuncionario(func);
+		func.associaProjeto(proj);
 		
 	}
 

@@ -58,8 +58,10 @@ class TesteEmpresa {
 		empresa1.cadastraFuncionario(func);
 		Projeto proj = new Projeto("Aspire");
 		empresa1.cadastraProjeto(proj);
-		//Novo metodo
+		//Novos metodos
 		empresa1.associaFuncionarioProjeto(func, proj);
+		String nomeFuncionarioDoProjeto = proj.mostraFuncionarioDoProjeto();
+		String nomeDoProjetoAssociado = func.mostraProjetoDofuncionario();
 		assertEquals(nomeFuncionarioDoProjeto, "João");
 		assertEquals(nomeDoProjetoAssociado, "Aspire");
 	}
